@@ -1,5 +1,6 @@
 interface IObserver {
-
+    observe: () => void,
+    disconnect: () => void
 }
 
 interface IOptions {
