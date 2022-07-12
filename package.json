@@ -1,12 +1,13 @@
 {
   "name": "ew-share-app-hlp",
   "version": "1.0.0",
-  "description": "一个分享比较新或者比较少用的web api的项目",
+  "description": "一个分享比较新的web api的项目",
   "main": "index.js",
   "scripts": {
     "frame": "pnpm run -r frame",
     "beancon": "pnpm run -r beancon",
-    "permission": "pnpm run -r permission"
+    "permission": "pnpm run -r permission",
+    "broadcast": "pnpm run -r broadcast"
   },
   "keywords": [],
   "author": "hlp",
