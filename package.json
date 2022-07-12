@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "frame": "pnpm run -r frame",
-    "beancon": "pnpm run -r beancon"
+    "beancon": "pnpm run -r beancon",
+    "permission": "pnpm run -r permission"
   },
   "keywords": [],
   "author": "hlp",
