@@ -4,8 +4,8 @@
   "description": "一个分享比较新或者比较少用的web api的项目",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "frame": "pnpm run -r frame"
+    "frame": "pnpm run -r frame",
+    "beancon": "pnpm run -r beancon"
   },
   "keywords": [],
   "author": "hlp",
