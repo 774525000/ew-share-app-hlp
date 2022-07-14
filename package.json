@@ -9,7 +9,8 @@
     "permission": "pnpm run -r permission",
     "broadcast": "pnpm run -r broadcast",
     "intersection": "pnpm run -r intersection",
-    "file-system": "pnpm run -r file-system"
+    "file-system": "pnpm run -r file-system",
+    "resize-observer": "pnpm run -r resize-observer"
   },
   "keywords": [],
   "author": "hlp",
