@@ -8,7 +8,8 @@
     "beancon": "pnpm run -r beancon",
     "permission": "pnpm run -r permission",
     "broadcast": "pnpm run -r broadcast",
-    "intersection": "pnpm run -r intersection"
+    "intersection": "pnpm run -r intersection",
+    "file-system": "pnpm run -r file-system"
   },
   "keywords": [],
   "author": "hlp",
