@@ -10,7 +10,8 @@
     "broadcast": "pnpm run -r broadcast",
     "intersection": "pnpm run -r intersection",
     "file-system": "pnpm run -r file-system",
-    "resize-observer": "pnpm run -r resize-observer"
+    "resize-observer": "pnpm run -r resize-observer",
+    "url-pattern": "pnpm run -r url-pattern"
   },
   "keywords": [],
   "author": "hlp",
