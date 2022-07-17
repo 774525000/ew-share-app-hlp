@@ -1,0 +1,12 @@
+{
+  "name": "cookie-store",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cookie-store": "webpack-dev-server --config webpack-config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

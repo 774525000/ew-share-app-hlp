@@ -11,7 +11,8 @@
     "intersection": "pnpm run -r intersection",
     "file-system": "pnpm run -r file-system",
     "resize-observer": "pnpm run -r resize-observer",
-    "url-pattern": "pnpm run -r url-pattern"
+    "url-pattern": "pnpm run -r url-pattern",
+    "cookie-store": "pnpm run -r cookie-store"
   },
   "keywords": [],
   "author": "hlp",
