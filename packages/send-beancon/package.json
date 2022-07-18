@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "beancon": "webpack-dev-server --config webpack.config.js"
+    "send-beancon": "webpack-dev-server --config webpack.config.js"
   },
   "keywords": [],
   "author": "",

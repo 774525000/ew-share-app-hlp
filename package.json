@@ -12,7 +12,7 @@
     "url-pattern": "pnpm run -r url-pattern",
     "cookie-store": "pnpm run -r cookie-store",
     "animation-frame": "pnpm run -r animation-frame",
-    "beancon": "pnpm run -r beancon",
+    "send-beancon": "pnpm run -r send-beancon",
     "permission": "pnpm run -r permission"
   },
   "keywords": [],
