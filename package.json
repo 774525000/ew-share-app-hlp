@@ -4,15 +4,16 @@
   "description": "一个分享比较新的web api的仓库",
   "main": "index.js",
   "scripts": {
-    "frame": "pnpm run -r frame",
-    "beancon": "pnpm run -r beancon",
-    "permission": "pnpm run -r permission",
-    "broadcast": "pnpm run -r broadcast",
-    "intersection": "pnpm run -r intersection",
-    "file-system": "pnpm run -r file-system",
+    "broadcast-channel": "pnpm run -r broadcast-channel",
+    "intersection-observer": "pnpm run -r intersection-observer",
+    "mutation-observer": "pnpm run -r mutation-observer",
     "resize-observer": "pnpm run -r resize-observer",
+    "file-system": "pnpm run -r file-system",
     "url-pattern": "pnpm run -r url-pattern",
-    "cookie-store": "pnpm run -r cookie-store"
+    "cookie-store": "pnpm run -r cookie-store",
+    "animation-frame": "pnpm run -r animation-frame",
+    "beancon": "pnpm run -r beancon",
+    "permission": "pnpm run -r permission"
   },
   "keywords": [],
   "author": "hlp",

@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "intersection": "webpack-dev-server --config webpack.config.js"
+    "intersection-observer": "webpack-dev-server --config webpack.config.js"
   },
   "keywords": [],
   "author": "",

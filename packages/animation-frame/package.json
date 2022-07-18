@@ -1,10 +1,10 @@
 {
-  "name": "broadcast",
+  "name": "frame",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "broadcast": "webpack-dev-server --config webpack.config.js"
+    "animation-frame": "webpack-dev-server --config webpack.config.js"
   },
   "keywords": [],
   "author": "",
