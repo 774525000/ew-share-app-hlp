@@ -1,4 +1,4 @@
-import AutoObserver from "./observer"
+import AutoObserver from 'utils'
 
 const app: HTMLElement = document.querySelector('#app')
 const btnList: HTMLElement = document.querySelector('.btn-list')

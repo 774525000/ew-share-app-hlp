@@ -9,6 +9,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "utils": "workspace:utils"
+  },
   "devDependencies": {
     "ts-loader": "^9.3.1",
     "typescript": "^4.7.4"
