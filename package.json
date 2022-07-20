@@ -13,7 +13,8 @@
     "cookie-store": "pnpm run -r cookie-store",
     "animation-frame": "pnpm run -r animation-frame",
     "send-beancon": "pnpm run -r send-beancon",
-    "permission": "pnpm run -r permission"
+    "permission": "pnpm run -r permission",
+    "custom-element": "pnpm run -r custom-element"
   },
   "keywords": [],
   "author": "hlp",

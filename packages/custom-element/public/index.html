@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <template id="tpl">
+        <style>
+            ::slotted(p) {
+                color: lightblue;
+                user-select: none;
+                cursor: inherit;
+            }
+        </style>
+        <header>
+            <!--默认卡槽-->
+            <slot></slot>
+        </header>
+        <footer>
+            <!--具名卡槽-->
+            <slot name="footer"></slot>
+        </footer>
+    </template>
+
+    <custom-element color="orange">
+        <div>
+            <h1>标题</h1>
+        </div>
+        <p slot="footer">hello world</p>
+    </custom-element>
+</body>
+</html>
