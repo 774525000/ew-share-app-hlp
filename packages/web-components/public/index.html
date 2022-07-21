@@ -8,7 +8,7 @@
 <template id="tpl">
     <style>
         ::slotted(.header) {
-            background-color: lightblue;
+            color: lightblue;
         }
 
         ::slotted(*) {
@@ -17,7 +17,7 @@
     </style>
     <header>
         <!--默认卡槽-->
-        <slot></slot>
+        <slot name="header"></slot>
     </header>
     <footer>
         <!--具名卡槽-->
@@ -26,10 +26,8 @@
 </template>
 
 <custom-element color="orange">
-    <div class="header">
-        <h1>标题</h1>
-    </div>
-    <p slot="footer">hello world</p>
+    <h1 class="header" slot="header">标题</h1>
+    <p slot="footer">article content...</p>
 </custom-element>
 </body>
 </html>
