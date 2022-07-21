@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "custom-element": "webpack-dev-server --config webpack.config.js"
+    "web-components": "webpack-dev-server --config webpack.config.js"
   },
   "keywords": [],
   "author": "",

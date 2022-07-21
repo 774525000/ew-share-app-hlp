@@ -4,6 +4,7 @@
   "description": "一个分享比较新的web api的仓库",
   "main": "index.js",
   "scripts": {
+    "web-components": "pnpm run -r web-components",
     "broadcast-channel": "pnpm run -r broadcast-channel",
     "intersection-observer": "pnpm run -r intersection-observer",
     "mutation-observer": "pnpm run -r mutation-observer",
@@ -13,8 +14,7 @@
     "cookie-store": "pnpm run -r cookie-store",
     "animation-frame": "pnpm run -r animation-frame",
     "send-beancon": "pnpm run -r send-beancon",
-    "permission": "pnpm run -r permission",
-    "custom-element": "pnpm run -r custom-element"
+    "permission": "pnpm run -r permission"
   },
   "keywords": [],
   "author": "hlp",
