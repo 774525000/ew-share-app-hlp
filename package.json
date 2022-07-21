@@ -1,7 +1,7 @@
 {
   "name": "ew-share-app-hlp",
   "version": "1.0.0",
-  "description": "一个分享比较新的web api的仓库",
+  "description": "分享比较新的web api的仓库",
   "main": "index.js",
   "scripts": {
     "web-components": "pnpm run -r web-components",
