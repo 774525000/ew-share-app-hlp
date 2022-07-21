@@ -24,3 +24,20 @@ Web Components 旨在解决这些问题 — 它由三项主要技术组成，它
 - 如果需要的话，使用 <template> 和<slot> 定义一个 HTML 模板。再次使用常规 DOM 方法克隆模板并将其附加到您的 shadow DOM 中
 - 在页面任何您喜欢的位置使用自定义元素，就像使用常规 HTML 元素那样
 - 使用 web component 的生命周期函数
+
+
+### 基本用法
+```javascript
+class CustomElement extends HTMLElement {
+    constructor() {
+        super()
+        this.attachShadow({
+            mode: 'open'
+        })
+        
+        this.shadowRoot.appendChild(elm)
+    }
+}
+
+customElements.define('custom-element', CustomElement)
+```

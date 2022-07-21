@@ -15,6 +15,7 @@ app
     ├─animation-frame
     ├─broadcast-channel
     ├─cookie-store
+    ├─custom-element
     ├─file-system
     ├─intersection-observer
     ├─mutation-observer
@@ -28,13 +29,12 @@ app
 <p>当然，还有部分API，虽然没有列入本仓库，但也挺有趣的，其中除了WEB API，还包括部分CSS等，比如：</p>
 
 1. [structuredClone()](https://developer.mozilla.org/en-US/docs/Web/API/structuredClone): JS终于内置深克隆的方法了
-2. [shadow DOM + custom elements](https://developer.mozilla.org/zh-CN/docs/Web/API/ShadowRoot)：能够很好的开发不依赖于vue或者react等库和框架的WEB 自定义组件了
-3. [Element.animate()](https://developer.mozilla.org/zh-CN/docs/Web/API/Element/animate)：JS中定义动画，启动动画，暂停动画等操作
+2[Element.animate()](https://developer.mozilla.org/zh-CN/docs/Web/API/Element/animate)：JS中定义动画，启动动画，暂停动画等操作
 
-4. [aspect-ratio](https://developer.mozilla.org/zh-CN/docs/Web/API/Element/animate)：CSS中保持元素宽高比的的属性
-5. [backdrop-filter](https://developer.mozilla.org/zh-CN/docs/Web/CSS/aspect-ratio)：CSS中实现类似于IOS中的毛玻璃效果的属性
-6. [@layer](https://developer.mozilla.org/zh-CN/docs/Web/CSS/@layer)：自定义CSS的优先级，减少样式被覆盖的规则
-7. [mask](https://developer.mozilla.org/zh-CN/docs/Web/CSS/mask)：图层蒙版，可以用来实现类似于B站的弹幕防挡效果的CSS属性
+3. [aspect-ratio](https://developer.mozilla.org/zh-CN/docs/Web/API/Element/animate)：CSS中保持元素宽高比的的属性
+4. [backdrop-filter](https://developer.mozilla.org/zh-CN/docs/Web/CSS/aspect-ratio)：CSS中实现类似于IOS中的毛玻璃效果的属性
+5. [@layer](https://developer.mozilla.org/zh-CN/docs/Web/CSS/@layer)：自定义CSS的优先级，减少样式被覆盖的问题
+6. [mask](https://developer.mozilla.org/zh-CN/docs/Web/CSS/mask)：图层蒙版，可以用来实现类似于B站的弹幕防挡效果的CSS属性
 
 
 
